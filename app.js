@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 const productRouter = require('./routes/Products')
 const userRouter = require('./routes/User')
 //const bodyParser = require("body-parser")
