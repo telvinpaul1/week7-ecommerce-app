@@ -9,6 +9,10 @@ const userRouter = require('./routes/User')
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
+
+app.get('/' (req, res, next)=> {
+  res.send('Welcome to my API')
+})
 //product route 
 app.use('/products', productRouter)
 
