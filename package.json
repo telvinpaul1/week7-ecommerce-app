@@ -2,7 +2,7 @@
   "name": "ecomerceapp",
   "version": "1.0.0",
   "description": "sales_point_software",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",

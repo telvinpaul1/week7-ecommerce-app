@@ -10,8 +10,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
 
-app.get('/' (req, res, next) => {
-  res.send(Welcome to my API);
+app.get('/', (req, res, next) => {
+  res.send('Welcome to my API');
   next()
 })
 //product route 
