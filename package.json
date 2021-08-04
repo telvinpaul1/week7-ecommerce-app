@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telvinpaul1/week7-ecommerce-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telvinpaul1/week7-ecommerce-app/issues"
+  },
+  "homepage": "https://github.com/telvinpaul1/week7-ecommerce-app#readme"
 }
