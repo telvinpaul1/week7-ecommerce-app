@@ -9,11 +9,11 @@ const userRouter = require('./routes/User')
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
-//product route
+//product route 
 app.use('/products', productRouter)
 
 //user route
-app.use('/user', userRouter)
+app.use('/user', userRouter)   
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
